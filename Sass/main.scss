@@ -1,0 +1,37 @@
+body {
+  background-image: url(../Images/102_505602339.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 25px;
+  color: red;
+  font-size: 4em;
+  font-family: "chinese_takeawayregular", Arial, sans-serif;
+}
+
+.header-button {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-evenly;
+}
+
+@font-face {
+  font-family: "chinese_takeawayregular";
+  src: url("../Images/fonts/chinesetakeaway-webfont.woff2") format("woff2"),
+    url("../Images/fonts/chinesetakeaway-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
