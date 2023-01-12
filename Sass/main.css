@@ -1,4 +1,5 @@
 body {
+  margin: 0px;
   background-image: url(../Images/102_505602339.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@ header {
 h1 {
   margin: auto;
   margin-top: 25px;
-  color: red;
+  color: black;
   font-size: 4em;
   font-family: "chinese_takeawayregular", Arial, sans-serif;
 }
@@ -38,6 +39,37 @@ h1 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.footer-schedules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -30px;
 }
 
 @font-face {
