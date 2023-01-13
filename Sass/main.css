@@ -72,6 +72,15 @@ footer {
   margin-top: -30px;
 }
 
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
 @font-face {
   font-family: "chinese_takeawayregular";
   src: url("../Images/fonts/chinesetakeaway-webfont.woff2") format("woff2"), url("../Images/fonts/chinesetakeaway-webfont.woff") format("woff");
