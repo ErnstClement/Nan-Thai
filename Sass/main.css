@@ -1,11 +1,5 @@
 body {
   margin: 0px;
-  background-image: url(../Images/102_505602339.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: black;
-  height: 100vh;
 }
 
 .navbar {
@@ -14,13 +8,12 @@ body {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  background-image: url(../Images/102_505602339.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  height: 100vh;
 }
 
 .title {
